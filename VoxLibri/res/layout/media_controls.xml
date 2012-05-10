@@ -1,0 +1,68 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/main_chapter_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:singleLine="true"
+        android:text="TextView" />
+
+    <SeekBar
+        android:id="@+id/main_chapter_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_chapter_title" />
+
+    <TextView
+        android:id="@+id/main_media_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_chapter_progress"
+        android:singleLine="true"
+        android:text="TextView" />
+
+    <SeekBar
+        android:id="@+id/main_media_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_media_time" />
+
+    <ImageButton
+        android:id="@+id/main_btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_media_progress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:src="@drawable/main_btn_play" />
+
+    <com.gmail.rborovyk.ui.RepeatingImageButton
+        android:id="@+id/main_btn_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/main_btn_play"
+        android:layout_toLeftOf="@id/main_btn_play"
+        android:background="#00000000"
+        android:src="@drawable/main_btn_prev" />
+
+    <com.gmail.rborovyk.ui.RepeatingImageButton
+        android:id="@+id/main_btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/main_btn_play"
+        android:layout_toRightOf="@id/main_btn_play"
+        android:background="#00000000"
+        android:src="@drawable/main_btn_next" />
+
+    <ImageButton
+        android:id="@+id/main_btn_bookmark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn_play"
+        android:layout_centerHorizontal="true"
+        android:background="#00000000"
+        android:src="@drawable/main_btn_bookmark" />
+</merge>

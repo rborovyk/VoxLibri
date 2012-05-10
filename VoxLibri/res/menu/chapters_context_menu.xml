@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/chapters_context_menu_open" android:id="@+id/chapters_context_menu_open"></item>
+</menu>
+

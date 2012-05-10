@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_menu_library" android:title="@string/main_menu_library" android:icon="@drawable/ic_menu_library"></item>
+    <item android:id="@+id/main_menu_bookmarks" android:title="@string/main_menu_bookmarks" android:icon="@drawable/ic_menu_bookmarks"></item>
+    <item android:id="@+id/main_menu_chapters" android:title="@string/main_menu_chapters" android:icon="@drawable/ic_menu_list"></item>
+    <item android:title="@string/main_menu_prefs" android:icon="@drawable/ic_menu_preferences" android:id="@+id/main_menu_prefs"></item>
+    <item android:title="@string/main_menu_about" android:id="@+id/main_menu_about" android:icon="@drawable/ic_menu_info_details"></item>
+    
+</menu>
+

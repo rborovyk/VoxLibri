@@ -1,0 +1,12 @@
+- Add v4 support 
+- Add tablet mode support
+- Impove exceptions handling
+- Check for the memory leaks
+- Implement background books adding (see Shelfs application)
+- Add plain media books support (no index files)
+- Add m3u playlist support
+- Implement About screen
+- Improve all screens
+- Implement settings page
+- Implement content provider
+- Add QSB (Quick Search Box) support

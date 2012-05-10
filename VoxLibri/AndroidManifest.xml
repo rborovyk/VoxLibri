@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest android:versionCode="1" android:versionName="1.0"
+    package="com.gmail.rborovyk.VoxLibri" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-sdk android:minSdkVersion="8"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:clearTaskOnLaunch="true"
+            android:excludeFromRecents="true" android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" android:name=".MainActivity" android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ChaptersActivity"/>
+        <activity android:name=".LibraryActivity"/>
+        <activity android:name=".PreferencesActivity"/>
+        <service android:name=".AudioService"/>
+        <activity android:name=".BookmarksActivity"/>
+        <activity android:name="com.gmail.rborovyk.ui.FileDialog"/>
+        <activity android:name=".AboutActivity" android:theme="@style/AboutDialog"/>
+    </application>
+</manifest>
